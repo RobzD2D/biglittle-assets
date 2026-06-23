@@ -1,11 +1,11 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
-
+/* Version du 23/06/2026 */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 :root {
     /* Body */
-    --bg-color: #E6F5F7; /* Ton bleu BigLittle très doux */
+    --bg-color: #E6F5F7; /* Ton bleu BigLittle */
     --bg-gradient: url('https://raw.githubusercontent.com/RobzD2D/biglittle-assets/main/fond_5_bulles_ludiques.svg');
 
     --font-family: "Manrope", sans-serif;
