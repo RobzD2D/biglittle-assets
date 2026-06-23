@@ -652,7 +652,7 @@ mark {
 }
 
 .text-muted {
-	color: var(--text-muted-color);
+	color: #ffffff;
 }
 
 .text-primary {
@@ -7746,4 +7746,35 @@ table.table-caddy > tfoot > tr > td {
 /* Force les petits slashs ( / ) en blanc si ce n'est pas déjà le cas */
 .breadcrumb > li + li::before {
     color: #ffffff !important;
+}
+
+/* Force tous les liens du footer en ciblant la balise footer globale */
+footer a, 
+footer .text-muted {
+    color: #ffffff !important;
+}
+
+/* --- FOOTER (Ciblage avec l'ID officiel) --- */
+
+/* 1. Force le texte "Biglittle" (titres, paragraphes, etc.) en blanc */
+#footer,
+#footer div,
+#footer span,
+#footer p,
+#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
+    color: #ffffff !important;
+}
+
+/* 2. Force les liens (Mentions légales...) en blanc grâce au sélecteur exact */
+#footer a,
+#footer .links a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+/* 3. Maintient le vert clair au survol des liens */
+#footer a:hover,
+#footer .links a:hover {
+    color: var(--secondary-color) !important;
+    text-decoration: underline !important;
 }
